@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="main.css">
+ </head>
+ <body>
+    <header>
+      <nav class="navbar">
+         <h1 class="logo">ADVENTURE</h1>
+         <ul class="nav-link">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="ctn">Contact</a></li>
+         </ul>
+         <img src="/img/menu-btn.png" alt="" class="menu-btn">
+      </nav>
+      <div class="header-content">
+         <h2>Explore The Colorful world</h2>
+         <div class="line"></div>
+         <h1>A WONDERFUL GIFT</h1>
+         <a href="#" class="ctn">Learn more</a>
+      </div>
+    </header>
+    <script>
+      const menubtn =document.querySelector('.menu-btn')
+      const navlink=document.querySelector('.nav-link')
+      menubtn.addEventListener('click',()=>{
+         navlink.classList.toggle('mobile-menu')
+      })
+    </script>
+   <section class="events">
+      <div class="title ">
+         <h1>Upoming Events</h1>
+         <div class="line"></div>
+      </div>
+      <div class="row">
+         <div class="col">
+            <img src="/img/img1.png" alt="">
+         <h4>Holiday track</h4>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor animi aspernatur praesentium libero, repellendus dignissimos modi dicta nesciunt odio consectetur? Culpa enim dolorum ex, dolore consectetur placeat temporibus distinctio omnis.
+         </p>
+         <a href="#" class="ctn">Learn more</a>
+         </div>
+         <div class="col">
+            <img src="/img/img2.png" alt="">
+         <h4>Mountain track</h4>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor animi aspernatur praesentium libero, repellendus dignissimos modi dicta nesciunt odio consectetur? Culpa enim dolorum ex, dolore consectetur placeat temporibus distinctio omnis.
+         </p>
+         <a href="#" class="ctn">Learn more</a>
+         </div>
+      </div>
+   </section>
+   <section class="explore">
+      <h1></h1>
+   </section>
+ </body>
+ </html>
